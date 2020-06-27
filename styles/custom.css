@@ -1,0 +1,82 @@
+.one-cut-text { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.5em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.two-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 7em;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.three-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 1.5em;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.four-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 2.3em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.five-cut-text { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.six-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.15em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.seven-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.5em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.eight-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 6em;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.nine-cut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 7.5em;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.ten-cut-text {
+    width: 7.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+::selection {
+    color: white;
+    background: #44a6c6;
+}
